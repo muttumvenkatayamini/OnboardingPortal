@@ -1,0 +1,14 @@
+.format{
+    height: 100vh !important;
+}
+.commentCell {
+    max-width: 280px; /* Adjust the width as per your preference */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+    
+    .commentCell:hover {
+    white-space: normal;
+    overflow: visible;
+    }
